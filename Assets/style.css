@@ -12,8 +12,8 @@ header {
     flex-wrap: wrap;
     position: relative;
     padding-top: 10px;
-    background: lightseagreen;
-    border-bottom: 10px solid lemonchiffon;
+    background: orange;
+    border-bottom: 10px solid black;
 }
 
 header h1 {
@@ -43,9 +43,31 @@ div {
 div h3 {
     text-align: center;
     font-size: 150%;
+    border-bottom: solid;
+}
+
+div p, div a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image2 {
+
+}
+
+.otherh3 {
+    padding-top: 20px;
 }
 
 .Contacts {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
